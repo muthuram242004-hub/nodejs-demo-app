@@ -7,7 +7,7 @@ const APP_VERSION = process.env.APP_VERSION || 'dev';
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from nodejs-demo-app, deployed with GitHub Actions + Docker!',
+    message: 'Hello from Muthu Ram! nodejs-demo-app Version 2, deployed automatically by CI/CD!',
     version: APP_VERSION,
   });
 });

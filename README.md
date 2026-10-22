@@ -1,5 +1,7 @@
 # nodejs-demo-app — CI/CD with GitHub Actions + Docker Hub
 
+[![CI/CD Pipeline](https://github.com/muthuram242004-hub/nodejs-demo-app/actions/workflows/main.yml/badge.svg)](https://github.com/muthuram242004-hub/nodejs-demo-app/actions/workflows/main.yml)
+
 A small Express app with an automated pipeline: every push to `main` runs the tests, builds a Docker image, pushes it to Docker Hub, then pulls it back and checks that it starts healthy.
 
 ```
